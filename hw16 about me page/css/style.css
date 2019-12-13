@@ -1,0 +1,171 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, a:link, a:visited {
+    color: #d6109a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0ad36e;
+    text-decoration: underline;
+}
+
+
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+    padding-left: 7px;
+    background-color: #D1DEF3;
+    /*background-color: #edf1f5;*/
+    /*border: thin #333333 solid;*/
+   
+}
+
+.main img {
+    width: 100%;
+    /*border: 7px #51B5EB solid;*/
+    border-radius: 10px;
+}
+
+.topnav {
+    /*border-bottom: thin #333333 solid;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    font-size: 24px;
+}
+
+.topnav ul {
+   /* display: flex;*/
+    list-style-type: none; 
+    margin: 0;
+    padding: 25px 40px 40px 80px;
+    border-bottom: thin #ffffff solid;
+}
+
+.topnav ul li {
+    /*border-bottom: thin #ffffff solid;*/
+    display: inline-block;
+    /*padding: 0 10px;*/
+    
+}
+
+.topnav a {
+    color: black;
+    text-decoration: none;
+    /*background-color: #333333;*/
+    padding: 10px 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.topnav a:hover {
+    color: white;
+    background-color: #51B5EB;
+    transition: 0.3s;
+}
+
+.topnav .aboutnav {
+    background-color:#51B5EB;
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mc {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 0;
+}
+
+.image {
+    padding: 30px 30px 0px 30px;
+    /*border-bottom: thin #333333 solid;*/
+}
+
+/*.image img {
+    max-width: 25%;
+    max-height: 25%;
+}
+*/
+
+.name {
+    /*text-align: center;*/
+    padding-left: 30px;
+}
+
+.contact {
+    padding-left: 30px;
+}
+
+.email ul {
+    padding-left: 30px;
+    
+}
+
+.email ul li {
+    list-style-type: none;
+    padding: 0 0px 10px 0px;
+}
+
+/*.links {
+    display: flex;
+    
+}*/
+
+.links ul {
+    display: flex;
+    padding-left: 30px;
+}
+
+.links ul li {
+    list-style-type: none;
+    padding-right: 10px;
+   
+}
+
+.details  {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-left: thin #333333 soid;
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 33.3333%;
+    flex-basis: 300px;
+}
+
+
+
+/*.skills {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-left: thin #333333 soid;
+    
+    flex-grow: 2;
+    flex-shrink: 0;
+    /*flex-basis: 33.3333%;
+    flex-basis: 200px;
+    
+
+}*/
+
+
+
+
+
+
+
+
+
